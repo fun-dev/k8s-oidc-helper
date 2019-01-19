@@ -3,42 +3,53 @@ module github.com/fun-dev/k8s-oidc-helper
 require (
 	github.com/PuerkitoBio/purell v1.1.0
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
-	github.com/emicklei/go-restful v2.4.0+incompatible
-	github.com/fsnotify/fsnotify v1.4.2
+	github.com/coreos/etcd v3.3.11+incompatible // indirect
+	github.com/emicklei/go-restful v2.8.1+incompatible
+	github.com/fsnotify/fsnotify v1.4.7
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-openapi/jsonpointer v0.0.0-20170102174223-779f45308c19
-	github.com/go-openapi/jsonreference v0.0.0-20161105162150-36d33bfe519e
-	github.com/go-openapi/spec v0.0.0-20171105074921-a4fa9574c7aa
-	github.com/go-openapi/swag v0.0.0-20170606142751-f3f9494671f9
-	github.com/gogo/protobuf v0.0.0-20171007142547-342cbe0a0415
+	github.com/go-openapi/jsonpointer v0.18.0
+	github.com/go-openapi/jsonreference v0.18.0
+	github.com/go-openapi/spec v0.18.0
+	github.com/go-openapi/swag v0.18.0
+	github.com/gogo/protobuf v1.2.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/google/btree v0.0.0-20161217183710-316fb6d3f031
+	github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
 	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
-	github.com/gregjones/httpcache v0.0.0-20171102012630-22a0b1feae53
-	github.com/hashicorp/hcl v0.0.0-20171017181929-23c074d0eceb
+	github.com/gregjones/httpcache v0.0.0-20181110185634-c63ab54fda8f
+	github.com/hashicorp/hcl v1.0.0
 	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
-	github.com/imdario/mergo v0.0.0-20171009183408-7fe0c75c13ab
-	github.com/json-iterator/go v0.0.0-20171010005702-6240e1e7983a
+	github.com/imdario/mergo v0.3.6
+	github.com/json-iterator/go v1.1.5
 	github.com/juju/ratelimit v1.0.1
-	github.com/magiconair/properties v1.7.3
-	github.com/mailru/easyjson v0.0.0-20171106100207-5f62e4f3afa2
-	github.com/mitchellh/mapstructure v0.0.0-20171017171808-06020f85339e
-	github.com/pelletier/go-toml v1.0.1
+	github.com/magiconair/properties v1.8.0
+	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/pelletier/go-toml v1.2.0
 	github.com/petar/GoLLRB v0.0.0-20130427215148-53be0d36a84c
 	github.com/peterbourgon/diskv v2.0.1+incompatible
-	github.com/spf13/afero v0.0.0-20171021110813-5660eeed305f
-	github.com/spf13/cast v1.1.0
-	github.com/spf13/jwalterweatherman v0.0.0-20170901151539-12bd96e66386
-	github.com/spf13/pflag v1.0.1
-	github.com/spf13/viper v1.0.2
-	golang.org/x/crypto v0.0.0-20171105172739-ca1fcd4ab4c1
-	golang.org/x/net v0.0.0-20171102191033-01c190206fbd
-	golang.org/x/sys v0.0.0-20171104193350-8eb05f94d449
-	golang.org/x/text v0.0.0-20171102192421-88f656faf3f3
-	gopkg.in/inf.v0 v0.9.0
-	gopkg.in/yaml.v2 v2.0.0-20170812160011-eb3733d160e7
-	k8s.io/api v0.0.0-20171027084545-218912509d74
-	k8s.io/apimachinery v0.0.0-20171027084411-18a564baac72
-	k8s.io/client-go v5.0.1+incompatible
-	k8s.io/kube-openapi v0.0.0-20171101183504-39a7bf85c140
+	github.com/spf13/afero v1.2.0
+	github.com/spf13/cast v1.3.0
+	github.com/spf13/jwalterweatherman v1.0.0
+	github.com/spf13/pflag v1.0.3
+	github.com/spf13/viper v1.3.1
+	github.com/stretchr/objx v0.1.1 // indirect
+	github.com/stretchr/testify v1.3.0 // indirect
+	github.com/ugorji/go/codec v0.0.0-20181209151446-772ced7fd4c2 // indirect
+	golang.org/x/crypto v0.0.0-20190103213133-ff983b9c42bc
+	golang.org/x/net v0.0.0-20190110200230-915654e7eabc
+	golang.org/x/oauth2 v0.0.0-20190115181402-5dab4167f31c // indirect
+	golang.org/x/sys v0.0.0-20190116161447-11f53e031339
+	golang.org/x/text v0.3.0
+	golang.org/x/time v0.0.0-20181108054448-85acf8d2951c // indirect
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+	gopkg.in/inf.v0 v0.9.1
+	gopkg.in/yaml.v2 v2.2.2
+	k8s.io/api v0.0.0-20181221193117-173ce66c1e39
+	k8s.io/apimachinery v0.0.0-20190119020841-d41becfba9ee
+	k8s.io/client-go v10.0.0+incompatible
+	k8s.io/klog v0.1.0 // indirect
+	k8s.io/kube-openapi v0.0.0-20190115222348-ced9eb3070a5
+	sigs.k8s.io/yaml v1.1.0 // indirect
 )
