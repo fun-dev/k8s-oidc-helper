@@ -1,6 +1,6 @@
 FROM golang:1.10-alpine as builder
 RUN apk add -U ca-certificates
-WORKDIR /go/src/github.com/tink-ab/k8s-oidc-helper
+WORKDIR /go/src/github.com/fun-dev/k8s-oidc-helper
 ADD . .
 RUN go install -ldflags '-w'
 

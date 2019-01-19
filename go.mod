@@ -1,4 +1,4 @@
-module github.com/tink-ab/k8s-oidc-helper
+module github.com/fun-dev/k8s-oidc-helper
 
 require (
 	github.com/PuerkitoBio/purell v1.1.0
