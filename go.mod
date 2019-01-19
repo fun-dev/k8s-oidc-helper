@@ -1,0 +1,44 @@
+module github.com/tink-ab/k8s-oidc-helper
+
+require (
+	github.com/PuerkitoBio/purell v1.1.0
+	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
+	github.com/emicklei/go-restful v2.4.0+incompatible
+	github.com/fsnotify/fsnotify v1.4.2
+	github.com/ghodss/yaml v1.0.0
+	github.com/go-openapi/jsonpointer v0.0.0-20170102174223-779f45308c19
+	github.com/go-openapi/jsonreference v0.0.0-20161105162150-36d33bfe519e
+	github.com/go-openapi/spec v0.0.0-20171105074921-a4fa9574c7aa
+	github.com/go-openapi/swag v0.0.0-20170606142751-f3f9494671f9
+	github.com/gogo/protobuf v0.0.0-20171007142547-342cbe0a0415
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/google/btree v0.0.0-20161217183710-316fb6d3f031
+	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+	github.com/gregjones/httpcache v0.0.0-20171102012630-22a0b1feae53
+	github.com/hashicorp/hcl v0.0.0-20171017181929-23c074d0eceb
+	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
+	github.com/imdario/mergo v0.0.0-20171009183408-7fe0c75c13ab
+	github.com/json-iterator/go v0.0.0-20171010005702-6240e1e7983a
+	github.com/juju/ratelimit v1.0.1
+	github.com/magiconair/properties v1.7.3
+	github.com/mailru/easyjson v0.0.0-20171106100207-5f62e4f3afa2
+	github.com/mitchellh/mapstructure v0.0.0-20171017171808-06020f85339e
+	github.com/pelletier/go-toml v1.0.1
+	github.com/petar/GoLLRB v0.0.0-20130427215148-53be0d36a84c
+	github.com/peterbourgon/diskv v2.0.1+incompatible
+	github.com/spf13/afero v0.0.0-20171021110813-5660eeed305f
+	github.com/spf13/cast v1.1.0
+	github.com/spf13/jwalterweatherman v0.0.0-20170901151539-12bd96e66386
+	github.com/spf13/pflag v1.0.1
+	github.com/spf13/viper v1.0.2
+	golang.org/x/crypto v0.0.0-20171105172739-ca1fcd4ab4c1
+	golang.org/x/net v0.0.0-20171102191033-01c190206fbd
+	golang.org/x/sys v0.0.0-20171104193350-8eb05f94d449
+	golang.org/x/text v0.0.0-20171102192421-88f656faf3f3
+	gopkg.in/inf.v0 v0.9.0
+	gopkg.in/yaml.v2 v2.0.0-20170812160011-eb3733d160e7
+	k8s.io/api v0.0.0-20171027084545-218912509d74
+	k8s.io/apimachinery v0.0.0-20171027084411-18a564baac72
+	k8s.io/client-go v5.0.1+incompatible
+	k8s.io/kube-openapi v0.0.0-20171101183504-39a7bf85c140
+)
